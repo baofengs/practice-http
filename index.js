@@ -65,8 +65,8 @@ const server = http.createServer((request, response) => {
         response.setHeader('Expires', expiresTime);
         response.write(`console.log('this is expires')`);
     } else if (path === '/fs') {
-        const file = fs.readFileSync('./1.html');
-        const fileState = fs.statSync('./1.html');
+        const file = fs.readFileSync('./index.html');
+        const fileState = fs.statSync('./index.html');
         const ifModifiedSince = request.headers['if-modified-since'];
         console.log(+(new Date(ifModifiedSince)), +(new Date(fileState.ctime)));
         if (Math.abs((new Date(ifModifiedSince)) - (new Date(fileState.ctime))) < 1000) {
