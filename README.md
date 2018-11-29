@@ -13,13 +13,11 @@ HTTP 实践
 npm run cache-control [port]
 ```
 
-2. 在控制台查看有关现象：http 的请求与相应
+2. 在控制台查看有关现象：http 的请求与响应
 
 ## HTTP 缓存
 
 详解：[MDN：HTTP 缓存](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Caching_FAQ)
-
-缓存相关的请求 & 相应头实践
 
 ### Cache-Control
 
