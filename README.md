@@ -3,12 +3,23 @@ HTTP 实践
 
 > 纸上得来终觉浅，绝知此事要躬行
 
-HTTP 缓存
----
+## 运行示例
+
+例如：
+
+1. 运行 Cache-Control 相关示例
+
+```bash
+npm run cache-control [port]
+```
+
+2. 在控制台查看有关现象：http 的请求与相应
+
+## HTTP 缓存
 
 缓存相关的请求 & 相应头实践
 
-## Cache-Control
+### Cache-Control
 
 指定有关指令来控制缓存
 
@@ -22,18 +33,8 @@ HTTP 缓存
 
 实践：[Practice Cache-Control](./cache/cache-control/index.js)
 
-## Etag
+### Etag
 
 存在意义：
 
 1. 
-
-
-使用
----
-
-例如：运行 Cache-Control 相关示例
-
-```bash
-npm run cache-control [port]
-```
