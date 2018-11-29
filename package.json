@@ -1,0 +1,19 @@
+{
+    "name": "learn-http",
+    "version": "1.0.0",
+    "description": "learn http",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "San Baofeng",
+    "license": "MIT",
+    "dependencies": {
+        "fs": "0.0.1-security",
+        "http": "0.0.0",
+        "js-md5": "^0.7.3",
+        "path": "^0.12.7",
+        "url": "^0.11.0"
+    }
+}
