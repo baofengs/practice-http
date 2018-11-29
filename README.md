@@ -17,6 +17,8 @@ npm run cache-control [port]
 
 ## HTTP 缓存
 
+详解：[MDN：HTTP 缓存](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Caching_FAQ)
+
 缓存相关的请求 & 相应头实践
 
 ### Cache-Control
